@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link html to javascript-->
+    <script src="javascript.js"></script>
+
+     <!--Link html to css-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Developer Registration Form</h1>
+
+    <!-- 1. Form to Enter FirstName, lastName, email, PhoneNumber, Gender, Province
+         2. Initialize return to false to prevent page from refreshing
+        --> 
+    
+    <form id="RegForm" onsubmit="return false">
+        <label for="fName">First name:</label><br>
+        <input type="text" id="FirstName" name="fName"><br>
+
+        <label for="lName">Last name:</label><br>
+        <input type="text" id="LastName" name="lName"><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="text" id="email" name="email"><br>
+
+        <label for="phoneNum">Phone number:</label><br>
+        <input type="text" id="phoneNum" name="phoneNum"><br>
+
+        <!--<label for="Gender">Gender:</label><br>-->
+        <p>Gender:</p>
+        <label for="male">Male</label><br>
+        <input type="radio" id="gender" name="male" value="male"><br>
+
+        <label for="female">Female</label><br>
+        <input type="radio" id="gender" name="female" value="female"><br>
+
+        
+
+       
+
+        <!--log values to the console-->
+
+        <input type="submit" value="Submit" onclick="getValues()">
+
+
+</body>
+</html>
