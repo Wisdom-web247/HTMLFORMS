@@ -18,3 +18,5 @@ p {
 color: blue;  
 text-align: center;  
 }
+
+p.ridge {border-style: ridge;}
