@@ -1,9 +1,10 @@
 function getValues(){
     let fname = document.getElementById("FirstName").value;
     let lname = document.getElementById("LastName").value;
-    let email = document.getElementById("email").value
+    let email = document.getElementById("email").value;
     let phoneNumber = document.getElementById('phoneNum').value;
-    let gender = document.getElementById("gender").value
+    let gender = document.getElementById("gender").value;
+    let address = document.getElementById("address").value;
     
     /*Load values to console*/
 
@@ -12,6 +13,7 @@ function getValues(){
     console.log(email)
     console.log(phoneNumber)
     console.log(gender)
+    console.log(address)
   
 
 }
